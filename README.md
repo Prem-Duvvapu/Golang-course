@@ -81,3 +81,10 @@ Working with and parsing URLs using the `net/url` package.
     go mod edit -go 1.19 (to change go version in go.mod)
     go mod vendor
     go run -mod=vendor main.go
+
+## 24. build api
+    1. get all courses api
+    2. get one course api
+    3. add a course api
+    4. update a course api
+    5. delete a course api

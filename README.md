@@ -66,3 +66,18 @@ Making HTTP GET/POST requests using the `net/http` package.
 Working with and parsing URLs using the `net/url` package.
 
 ## 21. [web verb requests](21webverbrequests)
+
+## 22. [my json][22myjson]
+
+## 23. [23mymodules](23mymodules)
+    some import commands
+    go mod init moduleName
+    go mod tidy
+    go mod verify
+    go list
+    go list all
+    go list -m all
+    go mod why module(ex: github.com/gorilla/mux)
+    go mod edit -go 1.19 (to change go version in go.mod)
+    go mod vendor
+    go run -mod=vendor main.go
